@@ -1,10 +1,10 @@
-RuleBook for RoboCup @Home 2019 [![](https://github.com/RoboCupAtHome/RuleBook/workflows/CI/badge.svg?branch=master)](https://github.com/RoboCupAtHome/RuleBook/actions?query=workflow%3ACI)
+RuleBook for RoboCup @Home 2022 [![](https://github.com/RoboCupAtHome/RuleBook/workflows/CI/badge.svg?branch=master)](https://github.com/RoboCupAtHome/RuleBook/actions?query=workflow%3ACI)
 ===============================
 
 The 2019 rulebook state is **FINAL**.
 
 Only spelling corrections and minor clarificatios may be merged from now on, as well as buffs to the scoresheets to enhance scoring.
-All work for the Rulebook of 2020 shall be pushed into to 2020/Rulebook.
+All work for the Rulebook of 2022 shall be pushed into to 2022/draft.
 
 [Current PDF (master)](https://robocupathome.github.io/RuleBook/rulebook/master.pdf)
 
@@ -22,7 +22,7 @@ See the Frequently Asked Questions [here](https://github.com/RoboCupAtHome/RuleB
 Or ask us via Telegram: [https://t.me/RoboCupAtHome](https://t.me/RoboCupAtHome)
 
 ### Change log
-The Rulebook has being completely restructured for 2019 and later competitions. 
+The Rulebook has being completely restructured for 2019 and later competitions.
 The new format was first tested at German Open 2019.
 
 #### Highlights
@@ -32,7 +32,7 @@ The new format was first tested at German Open 2019.
 - **Goal-driven scoring:** A robot can only score by accomplishing the *main goal* of a *task*. In addition to the *main goal*, several bonus objectives are available with juicy rewards, but will be only considered if the *main goal* is completed.
 - **Unlimited *Continues*:** The continue rule is no more. Instead, robots may call for a *Deus Ex Machina* and have human assistant helping it to solve the task. There is no limit on the number of times a robot can ask for help, and the nature of the help is unconstrained. Nonetheless, a proportional score reduction applies.
 
-These changes obey to one objective: **robots must succeed**. 
+These changes obey to one objective: **robots must succeed**.
 
 
 ### Question, issues, and contribution Guidelines
@@ -62,7 +62,7 @@ Contributions and improvements to the rulebook are always welcome in the form of
 
 The content of this project itself is licensed under the Creative Commons Attribution Share Alike 4.0 International license, and the underlying source code used to format and display that content is licensed under the GPL v2 license.
 
-Note that neither of these licenses grant rights to the RoboCup name and logo. If you would like to host a sanctioned event (e.g. competition, workshop, conference, education project), please [enter a proposal](https://www.robocup.org/site_proposals). 
+Note that neither of these licenses grant rights to the RoboCup name and logo. If you would like to host a sanctioned event (e.g. competition, workshop, conference, education project), please [enter a proposal](https://www.robocup.org/site_proposals).
 
 ### Recorded data
 Data is recorded from the robots during the competition. It is available through the following links:
