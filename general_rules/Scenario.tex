@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Scenario}
 \label{sec:rules:scenario}
-Most tests take place in the \RoboCup\AtHome{} \Arena{}. Some tests can take place outside, in a previously unknown public place (see~\ref{sec:concepts:nonstandardscenario}). This section describes the \Arena{} and how it is furnished,  as well as, known information that is shared in all tests. 
+Most tests take place in the \RoboCup\AtHome{} \Arena{}. Some tests can take place outside, in a previously unknown public place (see~\ref{sec:concepts:nonstandardscenario}). This section describes the \Arena{} and how it is furnished, as well as known information that is shared in all tests.
 
 \subsection{RoboCup@Home Arena}
 \label{sec:rules:scenario:arena}
@@ -86,7 +86,7 @@ Each object is provided at the competition for training.
 There are two types of objects:
 
 \begin{enumerate}
-	\item \textbf{\KnownObjects{}:} Objects previously known to the robot, divded into:
+	\item \textbf{\KnownObjects{}:} Objects previously known to the robot, divided into:
 	\begin{enumerate}
 		\item \textbf{\ConsistentObjects{}:} Objects whose image appears in the list of objects.
 		\item \textbf{\SimilarObjects{}:} Objects whose image is not present in the list of objects, but look similar enough to one of them that a person would consider them the same kind of object. For example, an apple of a different color from the apple in the list of objects, or a piece of cloth with a different pattern.
@@ -140,8 +140,8 @@ Relevant attributes to be used are:
 Since the robots should be able to function in the real world, the \Arena{} is not fixed and might change without further notice.
 \begin{enumerate}
 	\item \textbf{Major Changes:}
-	Any furniture (at a \PredefinedLocation{} or not) might be moved slightly between tests. It will not change rooms or move drastically inside a room. However, a couch or table may be rotated. Walls will stay in place and rooms will not change function. Passages might be blocked.
-	
+	Any furniture (at a \PredefinedLocation{} or not) that cannot be expected to be fully static in an everyday environment might be moved slightly between tests. In particular, furniture will not change rooms or move drastically inside a room, but a couch or table may be slightly rotated or moved; fixed locations for such furniture items should not be assumed. Walls will stay in place and rooms will not change function. Passages might be blocked.
+
 	\item \textbf{Minor Changes:} Slightly moved chairs, slightly closed doors, or anything similar cannot be avoided and might happen at any time, even during a test.
 \end{enumerate}
 
@@ -154,17 +154,17 @@ During \SetupDays{} and in between tests, teams can take objects from the \Arena
 \textit{\label{sec:rules:scenario:locations}}
 Some tests involve a \PredefinedLocation{}.
 \begin{itemize}
-	\item \textbf{Rooms:} Each room has a function (e.g., kitchen, bed room).
-	
-	\item \textbf{Furniture:} Some furniture will be named and sorted into a location class (e.g., couch and arm chair are both in the seating class). 
-	
-	\item \textbf{Doors:} The two doors leading in and out of the \Arena{} will be named entrance and exit respectively.
+	\item \textbf{Rooms:} Each room has a function (e.g., kitchen, bedroom).
+
+	\item \textbf{Furniture:} Some furniture will be named and sorted into a location class (e.g., couch and arm chair are both in the seating class).
+
+	\item \textbf{Doors:} The two doors leading in and out of the \Arena{} will be named \Entrance{} and \Exit{} respectively.
 \end{itemize}
 
 
 \subsection{Predefined Names}
 \label{sec:rules:scenario:names}
-Some tests involve memorizing a person's name. All people in the arena have an assigned \PredefinedName{} chosen from a list compiled by the \TC{}. This list has \NumNames{} names of which \SI{25}{\percent} are male, \SI{25}{\percent} female, and \SI{50}{\percent} gender-neutral, taken from the list of most common used names in the United States.
+Some tests involve memorizing a person's name. All people in the arena have an assigned \PredefinedName{} chosen from a list compiled by the \TC{}. This list has \NumNames{} names of which \SI{25}{\percent} are male, \SI{25}{\percent} female, and \SI{50}{\percent} gender-neutral, taken from the list of most commonly used names in the United States.
 
 
 \subsection{Wireless Network}
@@ -183,7 +183,7 @@ The following rules apply:
 	\item Each VLAN is also connected to the Internet.
 \end{itemize}
 
-\noindent Teams broadcasting unauthorized (aka rogue) wireless networks will be disqualified from the competition, and have their devices confiscated by the OC. This includes smartphones and concealed SSIDs. It is advised to verify your devices.
+\noindent Teams broadcasting unauthorized (aka rogue) wireless networks will be disqualified from the competition and their devices may be temporarily confiscated by the OC; this includes smartphones and concealed SSIDs. It is thus advised to verify your devices for any breaches of this nature.
 \\ \\
 \textbf{Note:} All information about the scenario will be announced during \SetupDays{} (see~\ref{chap:setupdays}).
 
